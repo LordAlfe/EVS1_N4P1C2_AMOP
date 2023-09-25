@@ -19,5 +19,6 @@ from django.urls import path
 from app1 import views as v1
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vista1/', v1.vistaUno)
+    path('vista1/', v1.vistaUno),
+    path('vista3/', v1.vistaTres),
 ]
