@@ -9,4 +9,13 @@ def vistaDos(response):
     <h2 style="color:green">Y tengo 20 años</h2>
     """
     return HttpResponse(html)
+
+def vistaCuatro(response):
+    html="""
+    <h1 style="color:purple">Hola Mundo, esta es mi segunda vista</h1>
+    <p style="color:purple">Me vuelvo a presentar, me llamo Alex</p>
+    <h1 style="color:black">Estudio en Inacap</h1>
+    <h3 style="color:green">Y tengo 20 años</h3>
+    """
+    return HttpResponse(html)
 # Create your views here.
